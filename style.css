@@ -1,0 +1,76 @@
+body {
+    background-color: #5bca25;
+    background-image: url("gfx/tlo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+#pasek {
+    width: 100%;
+    height: 80px;
+    margin-top: 3%;
+}
+#gra {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.przycisk {
+    align-items: center;
+    text-align: center;
+}
+.baton {
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+    background-color: Transparent;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+#bocik {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#ruch_bota {
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: clamp(31px, 3.55vw, 56px);
+    text-shadow: 
+    1px 1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+h2 {
+    font-size: clamp(21px, 2.6vw, 36px);
+    text-shadow: 
+    1px 1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+h3 {
+    font-size: clamp(16px, 2.0vw, 26px);
+}
+h5 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: clamp(180px, 25vw, 380px);
+    height: auto;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    margin-top: 2%;
+}
