@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="png/image" href="gfx/favicon.png">
+    <title>Papier kamień nożyce</title>
+</head>
+<body>
+    <h1 id="wynik">Papier kamień nożyce</h1>
+    <div id="gra">
+        <div class="przycisk">
+            <button class="baton" onclick="gra.bot(1)"><img src="gfx/papier.png" alt="Papier"></button>
+        </div>
+        <div class="przycisk">
+            <button class="baton" onclick="gra.bot(2)"><img src="gfx/kamien.png" alt="Kamień"></button>
+        </div>
+        <div class="przycisk">
+            <button class="baton" onclick="gra.bot(3)"><img src="gfx/nozyce.png" alt="Nożyce"></button>
+        </div>
+    </div>
+    <div id="bocik"><h2>Wybór bota:</h2><img id="ruch_bota" src="gfx/pusty.png" alt="Pusty"></div>
+    <div id="pasek">
+        <p id="hist">Historia: </p>
+        <p id="total">Wynik: </p>
+    </div>
+    <footer>
+        <h3>Zasady gry:</h3>
+        <ul>
+            <li>papier bije kamień</li>
+            <li>kamień bije nożyce</li>
+            <li>nożyce biją papier</li>
+        </ul>
+        <h5>Twórcy: <a href="https://github.com/SzymonOn" target="_blank">Szymon</a> i <a href="https://github.com/maslo-ser" target="_blank">Dariusz</a></h5>
+    </footer>
+    </body>
+</html>
