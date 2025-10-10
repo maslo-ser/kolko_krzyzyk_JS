@@ -14,6 +14,6 @@
   <li><strong>gra.wypisz_bota()</strong> - która odpowiada za zakomunikowanie na stronie wyboru bota</li>
   <li><strong>gra.zapisz_wynik()</strong> - której przekazuje wynik metody <strong>gra.kto_wygral()</strong></li>
 </ol>
-<p>Oczywiście w kodzie metody wewnątrz metody są wywoływane przez this.metoda(), a nie gra.metoda()</p>
+<p>Oczywiście w kodzie metody wewnątrz metody są wywoływane przez this.metoda(), a nie gra.metoda().</p>
 <hr>
 <p>Strona jest wdrożona za pomocą github pages pod adresem <a href="https://maslo-ser.github.io">maslo-ser.github.io</a></p>
