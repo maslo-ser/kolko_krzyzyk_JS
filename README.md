@@ -16,4 +16,4 @@
 </ol>
 <p>Oczywiście w kodzie metody wewnątrz metody są wywoływane przez this.metoda(), a nie gra.metoda().</p>
 <hr>
-<p>Strona jest wdrożona za pomocą github pages pod adresem <a href="https://maslo-ser.github.io">maslo-ser.github.io</a></p>
+<p>strona już nie jest tam wdrożona <a href="https://maslo-ser.github.io">maslo-ser.github.io</a></p>
